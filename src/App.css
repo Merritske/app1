@@ -1,0 +1,195 @@
+body{
+  font-family: 'Syne Tactile', cursive;
+box-sizing: border-box;
+margin: 0;
+}
+.app{
+  height: 100%;
+}
+hr{
+
+  box-shadow: 0 2px 4px blue;
+}
+.time{
+  text-align: center;
+}
+.header{
+  height: 80px;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0px 5px 8px grey;
+  background-color: black;
+}
+.header-title{
+  color: aliceblue;
+  letter-spacing: -2px;
+}
+.logo{
+  width: 60px;
+  margin-left: 20px;
+}
+.nav--list{
+    display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 20px;
+  letter-spacing: -1.5px;
+}
+.nav--list>li{
+  margin-right: 40px;
+  color: aliceblue;
+}
+.foto{
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+height: 600px;
+ }
+.f, .b{
+  width: 200px;
+  height: auto;
+  border-radius: 10px; 
+   position: absolute;
+}
+
+.f:nth-child(1){
+top: 20px;
+left: 0px
+}
+.b:nth-child(2){
+  top: 50px;
+  left: 250px
+  }
+.f:nth-child(3){
+  top: 0px;
+  left: 500px
+  }
+  .b:nth-child(4){
+     top: 300px;
+    left: 100px
+    }
+    .f:nth-child(5){
+      top: 250px;
+     left: 500px
+     }
+    .b:nth-child(6){
+         top: 300px;
+      left: 900px
+      }
+      .f:nth-child(7){
+       
+        top: 20px;
+        left: 1000px
+        }
+        .b:nth-child(8){
+     
+          top: 50px;
+          left: 750px
+          }
+      .hero{
+           height: 500px;
+ 
+ text-align: center;
+      }
+      .hero-text{
+
+        position: relative;
+    
+      
+      }
+      .card-container{
+        position: absolute;
+        top: 950px;
+            display: flex;
+           display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+  
+    .card{
+        font-family: 'Roboto Mono', monospace;
+      font-size: 12px;
+      width: 300px;
+      margin: 20px;
+      box-shadow: 0 0 10px 2px grey;
+      border-radius: 10px;
+      overflow: hidden;
+padding: 10px;
+    }
+    .card-img{
+border-radius: 3px;
+   width: 100%;
+        border-radius:5px;
+    }
+    .card--stats{
+      display: flex;
+      align-items: center;
+   margin-left: 20px; 
+
+    }
+    
+    .grey{
+      color: gray;
+    }
+    .quotes{
+      margin-right: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-style: italic;
+    }
+    .like{
+      width: 20px;
+    }
+    .dislike{
+      transform: rotate(180deg);
+      width: 20px;
+      transform: rotateX(180deg);
+      margin-left: 30px;
+    }
+    .joke-container{
+        position: relative;
+    top: 1500px;
+   
+    }
+    .joke-title{
+      text-align: center;
+    }
+    .jokes{
+   margin-left: 350px;
+      margin-top: 80px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding-left: 20px;
+    }
+    .form--field{
+      margin: 20px;
+      background-color: bisque;
+    }
+    .form--textarea{
+      width: 800px;
+      height: fit-content;
+    }
+    .footer{
+      position: absolute;
+   top: 3300px;
+      height: 80px;
+      background-color: black;
+      color: aliceblue;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 100%;
+      text-align: center;
+    }
+    .gitIcon{
+      width: 20px;
+      background-color: aliceblue;
+margin-left: 30px;
+border-radius: 50%;
+    }
+ 
