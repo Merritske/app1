@@ -105,8 +105,8 @@ left: 0px
       
       }
       .card-container{
-        position: absolute;
-        top: 950px;
+position: relative;
+top: 150px;
             display: flex;
            display: flex;
         flex-direction: row;
@@ -156,7 +156,7 @@ border-radius: 3px;
     }
     .joke-container{
         position: relative;
-    top: 1500px;
+    top: 180px;
    
     }
     .joke-title{
@@ -178,19 +178,58 @@ border-radius: 3px;
       height: fit-content;
     }
     .footer{
-      position: absolute;
-   top: 3300px;
+      position: relative;
+   top: 300px;
       height: 80px;
       background-color: black;
-      color: aliceblue;
+       width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+     }
+     .footer>h5{
+         color: aliceblue;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      width: 100%;
-      text-align: center;
-    }
+     }
     .gitIcon{
       width: 20px;
       background-color: aliceblue;
 margin-left: 30px;
 border-radius: 50%;
     }
- 
+    .memeheader{
+      position: relative;
+top: 200px;
+background: linear-gradient(90deg, aqua 1.5%, blue 100%);
+height: 60px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+    .logomeme{
+      width: 50px;
+      margin: 20px;
+       }
+       .form{
+         position: relative;
+         top: 200px;
+         display: grid;
+         grid-template: 40px 40px/ 1fr 1fr ;
+         gap: 17px;
+         padding: 30px;
+       }
+       .form--input{
+         border-radius: 10px;
+         border: 1px solid #D5D4D8;
+         text-indent: 5px;
+       }
+ .form--button{
+   grid-column: 1/ -1;
+   border-radius: 5px;
+   background: linear-gradient(90deg, #711F8D 1.2%, #A818DA 100%);
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
