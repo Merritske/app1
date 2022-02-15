@@ -147,11 +147,12 @@ border-radius: 3px;
     }
     .like{
       width: 20px;
+      cursor: pointer;
     }
     .dislike{
-      transform: rotate(180deg);
+   transform: rotate(180deg);
       width: 20px;
-      transform: rotateX(180deg);
+    cursor: pointer;
       margin-left: 30px;
     }
     .joke-container{
@@ -232,4 +233,66 @@ align-items: center;
    color: white;
    border: none;
    cursor: pointer;
+ }
+ .counter{
+   width: 550px;
+   height: 100px;
+   margin-left: auto;
+   margin-right: auto;
+display: flex;
+padding: 20px;
+ }
+ .count{
+   background-image: linear-gradient(45deg, #f36 3%, #363 100%);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+ }
+ .increase, .decrease{
+   height: 30px;
+   width: 30px;
+  background-color: #363;
+  border: none;
+  border-radius: 10px; 
+   font-size: larger;
+ }
+ .increase{
+    position: relative;
+   top: 50px;
+   left: 20px;
+ 
+ }
+ .decrease{
+  position: relative;
+  top: 50px;
+  left: -20px;
+ }
+ .meme-image{
+   max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .person_card{
+   margin: 20px;
+   border: 2px dashed aqua;
+   width: 300px;
+   height: 500px;
+   position: relative;
+   top: 350px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .profielfoto{
+   width: 300px;
+ }
+ .isFavorite{
+   width: 20px;
+ margin: 20px;
+ background-color: yellow;
+border-radius: 50%;
+
+ cursor: pointer;
+ }
+ .person_content{
+   padding-left: 10px;
  }

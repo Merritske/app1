@@ -8,7 +8,7 @@ export default function JokeVerz(props){
                         <Jokes 
  setup="Helvetica and Times New Roman walk into a bar."
 punchline=" 'Get out of here!' shouts the bartender. 'We don’t serve your type.'"
-likes={2 }
+likes={0 }
 dislikes = {0}
 comments={[{contributor:"", setup:"", punchline:"" }]}
 />  
