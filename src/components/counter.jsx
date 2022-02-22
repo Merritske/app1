@@ -1,14 +1,15 @@
 import { useState } from "react"
-
+import Count from "./Count"
 export default function Counter(){
 //   let isGoingOut = ""
 const[isGoingOut, setIsGoingOut] = useState(true)
-
-    const [count, setCount] = useState(0)
 function handleMouse(){
     console.log("hello")
     setIsGoingOut(prevIsGoingOut => !prevIsGoingOut)
 }
+
+    const [count, setCount] = useState(0)
+
 function handlePlus() {
 setCount( (prevCount) =>  { return prevCount +1}
   )
@@ -24,11 +25,9 @@ function handleMin() {
 
     return(
         <div className="counter"> 
-         <button className="increase" onClick={handlePlus}>+</button>
-         <div className="count" onMouseEnter={handleMouse} onMouseLeave={handleMouse}> 
-          <h1>{count}</h1>
-          </div>
-          <button className="decrease" onClick={handleMin}>-</button>
+         <button className="increase" onClick={handlePlus} onMouseEnter={handleMouse} >+</button>
+        <Count num={count} />
+          <button className="decrease" onClick={handleMin} onMouseLeave={handleMouse}>-</button>
           <h3>
               {/* Let the counter decide your answer:   */}
               Do you want to go out?
