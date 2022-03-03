@@ -14,6 +14,7 @@ import PersonCard from './components/personCard';
 import { useState } from "react";
 
 import Time from './components/timeOfDay';
+import DataApi from './components/DataApi';
 
 
 function App() {
@@ -59,6 +60,18 @@ function toggleFavorite() {
  <JokeVerz/>
 <MemeHeader/>
 <MemInput/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<DataApi/>
 <Footer/>
 <PersonCard  user={contact} toggle={toggleFavorite}/>
  <PersonCard user={contact} toggle={toggleFavorite}/>
